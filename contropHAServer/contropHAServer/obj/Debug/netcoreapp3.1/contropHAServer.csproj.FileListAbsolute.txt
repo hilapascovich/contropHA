@@ -1,0 +1,14 @@
+C:\Users\הילה פסקוביץ\source\repos\contropHAServer\contropHAServer\bin\Debug\netcoreapp3.1\contropHAServer.exe
+C:\Users\הילה פסקוביץ\source\repos\contropHAServer\contropHAServer\bin\Debug\netcoreapp3.1\contropHAServer.deps.json
+C:\Users\הילה פסקוביץ\source\repos\contropHAServer\contropHAServer\bin\Debug\netcoreapp3.1\contropHAServer.runtimeconfig.json
+C:\Users\הילה פסקוביץ\source\repos\contropHAServer\contropHAServer\bin\Debug\netcoreapp3.1\contropHAServer.runtimeconfig.dev.json
+C:\Users\הילה פסקוביץ\source\repos\contropHAServer\contropHAServer\bin\Debug\netcoreapp3.1\contropHAServer.dll
+C:\Users\הילה פסקוביץ\source\repos\contropHAServer\contropHAServer\bin\Debug\netcoreapp3.1\contropHAServer.pdb
+C:\Users\הילה פסקוביץ\source\repos\contropHAServer\contropHAServer\obj\Debug\netcoreapp3.1\contropHAServer.csproj.AssemblyReference.cache
+C:\Users\הילה פסקוביץ\source\repos\contropHAServer\contropHAServer\obj\Debug\netcoreapp3.1\contropHAServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\הילה פסקוביץ\source\repos\contropHAServer\contropHAServer\obj\Debug\netcoreapp3.1\contropHAServer.AssemblyInfoInputs.cache
+C:\Users\הילה פסקוביץ\source\repos\contropHAServer\contropHAServer\obj\Debug\netcoreapp3.1\contropHAServer.AssemblyInfo.cs
+C:\Users\הילה פסקוביץ\source\repos\contropHAServer\contropHAServer\obj\Debug\netcoreapp3.1\contropHAServer.csproj.CoreCompileInputs.cache
+C:\Users\הילה פסקוביץ\source\repos\contropHAServer\contropHAServer\obj\Debug\netcoreapp3.1\contropHAServer.dll
+C:\Users\הילה פסקוביץ\source\repos\contropHAServer\contropHAServer\obj\Debug\netcoreapp3.1\contropHAServer.pdb
+C:\Users\הילה פסקוביץ\source\repos\contropHAServer\contropHAServer\obj\Debug\netcoreapp3.1\contropHAServer.genruntimeconfig.cache

@@ -1,0 +1,42 @@
+﻿<Window x:Class="contropHAClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:contropHAClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="313" Width="414" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,20,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="46*"/>
+            <RowDefinition Height="199*"/>
+
+        </Grid.RowDefinitions>
+        <Canvas >
+            <Label Content="Connection status:" Height="30" Canvas.Top="2" />
+            <Label Name="connectionLabel" Content="Disconnected" Width="97" Height="30" Foreground="Red" Canvas.Left="128" Canvas.Top="2"/>
+            <Button x:Name="connectButton" Content="Connect" Width="66" Click="connect" Canvas.Left="245"/>
+            <Button  x:Name="diconnectButton" Content="Stop" Width="66" Click="stopConnection" Canvas.Left="328" IsEnabled="False"/>
+        </Canvas>
+        <StackPanel HorizontalAlignment="Center" Grid.Row="1">
+            <StackPanel Orientation="Horizontal" Margin=" 0,10">
+                <Label Grid.Row="1" Content="Current temperature:" VerticalContentAlignment="Center" Height="30" Width="140"/>
+                <TextBox  x:Name="currentTempTextBox" TextWrapping="Wrap" IsEnabled="False" VerticalContentAlignment="Center" Height="30"  Width="70"/>
+                <Label  Content="°"  />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin=" 0,10">
+                <Label  Content="Temperature:" VerticalContentAlignment="Center" Width="140" Height="30" />
+                <TextBox  x:Name="temperatureTextBox"  TextWrapping="Wrap" VerticalContentAlignment="Center" Height="30" Width="70" IsEnabled="False" />
+                <Label  Content="°"  />
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10">
+                <Label Grid.Row="1" Content="Duration:" VerticalContentAlignment="Center" Width="140" Height="30"/>
+                <TextBox Grid.Row="1" Name="durationTextBox"  TextWrapping="Wrap"  VerticalContentAlignment="Center" Height="30"  Width="70" IsEnabled="False" />
+                <Label  Content="s"  />
+
+            </StackPanel>
+            <Button x:Name="setTempButton" Grid.Row="1" Content="Set temperature" Click="setNewTemp" Width="120" Height="30" Margin="0,10" IsEnabled="False" />
+        </StackPanel>
+    </Grid>
+</Window>
